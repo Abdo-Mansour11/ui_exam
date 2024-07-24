@@ -99,7 +99,7 @@ class _AudioBooksState extends State<AudioBooks> {
                           ],
                           contentPadding: EdgeInsets.symmetric(horizontal: 16),
                         ),
-                        SizedBox(height: 20),
+                        SizedBox(height: 25),
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: 28),
                           child: Row(
@@ -121,7 +121,9 @@ class _AudioBooksState extends State<AudioBooks> {
                             ],
                           ),
                         ),
-              
+
+                        SizedBox(height: 12),
+
                         Container(
                           alignment: Alignment.centerLeft,
                           color: Colors.red,
@@ -257,7 +259,7 @@ class _AudioBooksState extends State<AudioBooks> {
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home_filled),label: "home ",backgroundColor: Colors.white),
             BottomNavigationBarItem(icon: Icon(Icons.search_outlined),label: "Search ",backgroundColor: Colors.white),
-            BottomNavigationBarItem(icon: Icon(Icons.notes_rounded),label: " Library",backgroundColor: Colors.white ),
+            BottomNavigationBarItem(icon:ImageIcon(AssetImage("assets/images/Document.png")),label: " Library",backgroundColor: Colors.white ),
           ],
         ),
       ),
