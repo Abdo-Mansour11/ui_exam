@@ -5,7 +5,10 @@ class Home_screen extends StatelessWidget {
 static const String routeName ='moody';
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return  Scaffold(
+      appBar: AppBar(
+        leading: Image.asset("assets/images/logo.png"),),
+
 
     );
   }
