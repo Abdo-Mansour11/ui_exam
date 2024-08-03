@@ -125,27 +125,27 @@ class _AudioBooksState extends State<AudioBooks> {
                         SizedBox(height: 12),
 
                         Container(
-                          alignment: Alignment.centerLeft,
-                          color: Colors.red,
+                          padding: EdgeInsets.zero,
+                          color: Colors.green,
                           height: 400,
                           width: 400,
                           child: TabBarView(
+                            physics: BouncingScrollPhysics(),
                             dragStartBehavior: DragStartBehavior.start,
                             viewportFraction: 0.5,
                             children: <Widget>[
                               Container(
-                                  alignment: Alignment.centerLeft,
                                   child: Image.asset(
-                                      'assets/images/Image Placeholder 400x600.png')),
+                                      'assets/images/Image Placeholder 2 (1).png',fit: BoxFit.fill,) ,),
                               Container(
                                   child: Image.asset(
-                                      'assets/images/Image Placeholder 2.png')),
+                                      'assets/images/Image Placeholder 2 (1).png')),
                               Container(
                                   child: Image.asset(
-                                      'assets/images/Image Placeholder 400x600.png')),
+                                      'assets/images/Image Placeholder 2 (1).png')),
                               Container(
                                   child: Image.asset(
-                                      'assets/images/Image Placeholder 2.png')),
+                                      'assets/images/Image Placeholder 400x600 (1).png')),
                             ],
                           ),
                         ),
